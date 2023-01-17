@@ -3,7 +3,7 @@ import random
 
 
 #Spin the wheel game
-st.set_page_config(page_title="Spin the wheel", page_icon="🎰", layout="wide")
+st.set_page_config(page_title="Spin the wheel", layout="wide")
 st.markdown("<h1 style='text-align: center; color: red;'>Spin the wheel</h1>", unsafe_allow_html=True)
 
 rules, game = st.columns(2)
